@@ -22,7 +22,6 @@
       border-color: #444;
     }
 
-    /* Logo styling */
     .logo-img {
       max-width: 300px;
       height: auto;
@@ -30,25 +29,19 @@
       display: block;
     }
 
-    /* Full-width stacked images */
     .product-img {
       width: 100%;
+      max-width: 800px;
       height: auto;
       display: block;
-      border-radius: 0;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ffd70044;
+      transition: transform 0.3s ease;
     }
 
-    /* Optional: make images fit screen height too */
-    .product-section {
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-    }
-
-    .product-section img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    .product-img:hover {
+      transform: scale(1.02);
     }
   </style>
 </head>
@@ -82,19 +75,11 @@
 
 <hr>
 
-<!-- Full-Screen Product Images (Stacked) -->
-<div class="product-section">
-  <img src="image1.jpg" alt="Merch 1">
-</div>
-<div class="product-section">
-  <img src="image2.jpg" alt="Merch 2">
-</div>
-<div class="product-section">
-  <img src="image3.jpeg" alt="Merch 3">
-</div>
-<div class="product-section">
-  <img src="image4.png" alt="Merch 4">
-</div>
+<!-- Neatly Stacked Product Images -->
+<img src="image1.jpg" alt="Merch 1" class="product-img">
+<img src="image2.jpg" alt="Merch 2" class="product-img">
+<img src="image3.jpeg" alt="Merch 3" class="product-img">
+<img src="image4.png" alt="Merch 4" class="product-img">
 
 </body>
 </html>
