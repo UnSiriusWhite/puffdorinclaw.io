@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>PuffDorInClaw</title>
-  <link rel="icon" type="image/png" href="image5.png"> <!-- Logo favicon -->
+  <link rel="icon" type="image/png" href="image5.png">
   <style>
     body {
-      background-color: #000; /* Dark background */
-      color: #fff;            /* White text */
+      background-color: #000;
+      color: #fff;
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
     }
 
     a {
-      color: #ffd700; /* Golden links */
+      color: #ffd700;
       text-decoration: none;
     }
 
@@ -22,48 +22,51 @@
       border-color: #444;
     }
 
-    img {
-      border-radius: 10px;
-      margin: 10px;
-      transition: transform 0.3s ease;
-    }
-
-    /* Larger image size for product images */
-    .product-img {
-      width: 40%;
-      max-width: 300px;
-    }
-
-    .product-img:hover {
-      transform: scale(1.05);
-    }
-
-    /* Keep logo at default size */
+    /* Logo styling */
     .logo-img {
       max-width: 300px;
       height: auto;
+      margin: 20px auto;
+      display: block;
+    }
+
+    /* Full-width stacked images */
+    .product-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 0;
+    }
+
+    /* Optional: make images fit screen height too */
+    .product-section {
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .product-section img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   </style>
 </head>
 <body>
 
-<!-- Logo / Crest -->
-<div style="text-align: center;">
-  <img src="image5.png" alt="Hogwarts Crest" class="logo-img">
-</div>
+<!-- Logo -->
+<img src="image5.png" alt="Hogwarts Crest" class="logo-img">
 
 <!-- Title -->
 <h1 style="font-size:50px;text-align:center;">PuffDorInClaw</h1>
 
 <!-- Description -->
-<p style="font-size:20px; text-align:center;">
+<p style="font-size:20px; text-align:center; padding: 0 20px;">
   Step into the magical world of Harry Potter with our exclusive <br>
   collection of wands and merchandise! Whether you're a Gryffindor,
   Slytherin, Hufflepuff, or Ravenclaw, we offer high-quality
   authentic wands, apparel, collectibles, and accessories to bring your
-  wizarding dreams to life. Perfect for fans, collectors, or anyone
-  looking to add a little magic to their everyday life. 
-  Explore our shop and unleash the magic today!
+  wizarding dreams to life.
 </p>
 
 <hr>
@@ -79,12 +82,18 @@
 
 <hr>
 
-<!-- Product Images -->
-<div style="text-align: center;">
-  <img src="image1.jpg" alt="Merch 1" class="product-img">
-  <img src="image2.jpg" alt="Merch 2" class="product-img">
-  <img src="image3.jpeg" alt="Merch 3" class="product-img">
-  <img src="image4.png" alt="Merch 4" class="product-img">
+<!-- Full-Screen Product Images (Stacked) -->
+<div class="product-section">
+  <img src="image1.jpg" alt="Merch 1">
+</div>
+<div class="product-section">
+  <img src="image2.jpg" alt="Merch 2">
+</div>
+<div class="product-section">
+  <img src="image3.jpeg" alt="Merch 3">
+</div>
+<div class="product-section">
+  <img src="image4.png" alt="Merch 4">
 </div>
 
 </body>
