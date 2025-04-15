@@ -12,16 +12,36 @@
       margin: 0;
       padding: 0;
     }
+
     a {
       color: #ffd700; /* Golden links */
       text-decoration: none;
     }
+
     hr {
       border-color: #444;
     }
+
     img {
       border-radius: 10px;
       margin: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    /* Larger image size for product images */
+    .product-img {
+      width: 40%;
+      max-width: 300px;
+    }
+
+    .product-img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Keep logo at default size */
+    .logo-img {
+      max-width: 300px;
+      height: auto;
     }
   </style>
 </head>
@@ -29,7 +49,7 @@
 
 <!-- Logo / Crest -->
 <div style="text-align: center;">
-  <img src="image5.png" alt="Hogwarts Crest" style="max-width: 300px; height: auto;">
+  <img src="image5.png" alt="Hogwarts Crest" class="logo-img">
 </div>
 
 <!-- Title -->
@@ -61,10 +81,10 @@
 
 <!-- Product Images -->
 <div style="text-align: center;">
-  <img style="width: 25%" src="image1.jpg" alt="Merch 1">
-  <img style="width: 25%" src="image2.jpg" alt="Merch 2">
-  <img style="width: 25%" src="image3.jpeg" alt="Merch 3">
-  <img style="width: 25%" src="image4.png" alt="Merch 4">
+  <img src="image1.jpg" alt="Merch 1" class="product-img">
+  <img src="image2.jpg" alt="Merch 2" class="product-img">
+  <img src="image3.jpeg" alt="Merch 3" class="product-img">
+  <img src="image4.png" alt="Merch 4" class="product-img">
 </div>
 
 </body>
