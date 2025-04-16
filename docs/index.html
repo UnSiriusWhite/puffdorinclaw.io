@@ -34,14 +34,21 @@
       max-width: 500px;
       height: auto;
       display: block;
-      margin: 20px auto;
+      margin: 30px auto;
       border-radius: 10px;
-      box-shadow: 0 0 10px #ffd70044;
-      transition: transform 0.3s ease;
+      box-shadow:
+        0 0 20px #ffd700,
+        0 0 40px #ffd700aa,
+        0 0 60px #ffd70066;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .product-img:hover {
-      transform: scale(1.02);
+      transform: scale(1.05);
+      box-shadow:
+        0 0 30px #ffd700,
+        0 0 60px #ffd700cc,
+        0 0 90px #ffd700aa;
     }
   </style>
 </head>
@@ -93,6 +100,4 @@
 
 </body>
 </html>
-
-
 
