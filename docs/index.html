@@ -2,98 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>PuffDorInClaw</title>
-  <link rel="icon" type="image/png" href="image5.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PuffDorInClaw Wand Shop</title>
   <style>
     body {
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
+      background-color: #121212;
+      color: gold;
+      font-family: 'Georgia', serif;
+      text-align: center;
     }
 
-    a {
-      color: #ffd700;
-      text-decoration: none;
+    h1 {
+      font-size: 3em;
+      margin-top: 20px;
+      text-shadow: 0 0 10px gold;
     }
 
-    hr {
-      border-color: #444;
+    .wand-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
     }
 
-    .logo-img {
-      max-width: 300px;
+    .wand-item {
+      background-color: #1f1f1f;
+      border-radius: 15px;
+      padding: 15px;
+      width: 200px;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    }
+
+    .wand-item img {
+      width: 100%;
       height: auto;
-      margin: 20px auto;
-      display: block;
-    }
-
-    .product-img {
-      width: 60%;
-      max-width: 500px;
-      height: auto;
-      display: block;
-      margin: 20px auto;
       border-radius: 10px;
-      box-shadow: 0 0 10px #ffd70044;
-      transition: transform 0.3s ease;
     }
 
-    .product-img:hover {
-      transform: scale(1.02);
+    .wand-name {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 1.2em;
     }
   </style>
 </head>
 <body>
+  <h1>PuffDorInClaw Wand Collection</h1>
 
-  <!-- Logo -->
-  <img src="image5.png" alt="Hogwarts Crest" class="logo-img">
-
-  <!-- Title -->
-  <h1 style="font-size:50px;text-align:center;">PuffDorInClaw</h1>
-
-  <!-- Description -->
-  <p style="font-size:20px; text-align:center; padding: 0 20px;">
-    Step into the magical world of Harry Potter with our exclusive <br>
-    collection of wands and merchandise! Whether you're a Gryffindor,
-    Slytherin, Hufflepuff, or Ravenclaw, we offer high-quality
-    authentic wands, apparel, collectibles, and accessories to bring your
-    wizarding dreams to life.
-  </p>
-
-  <hr>
-
-  <!-- Wand Links -->
-  <p style="font-size:15px; text-align:center;">More about them:</p>
-  <p style="text-align: center;">
-    <a href="https://harrypotter.fandom.com/wiki/Hermione_Granger%27s_wand" style="font-size: 12px;">Hermione Granger's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Elder_Wand" style="font-size: 12px;">The Elder Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Sirius_Black%27s_wand" style="font-size: 12px;">Sirius Black's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Albus_Dumbledore%27s_wand" style="font-size: 12px;">Albus Dumbledore's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Harry_Potter%27s_wand" style="font-size: 12px;">Harry Potter's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Draco_Malfoy%27s_wand" style="font-size: 12px;">Draco Malfoy's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Bellatrix_Lestrange%27s_wand" style="font-size: 12px;">Bellatrix Lestrange's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Neville_Longbottom%27s_wand" style="font-size: 12px;">Neville Longbottom's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Luna_Lovegood%27s_wand" style="font-size: 12px;">Luna Lovegood's Wand</a>
-  </p>
- 
-  <hr>
-
-  <!-- Product Images -->
-  <img src="image1.jpg" alt="Merch 1" class="product-img">
-  <img src="image2.jpg" alt="Merch 2" class="product-img">
-  <img src="image3.jpeg" alt="Merch 3" class="product-img">
-  <img src="image4.png" alt="Merch 4" class="product-img">
-  <img src="abcd1.png" alt="Merch 5" class="product-img">
-  <img src="abcd2.png" alt="Merch 6" class="product-img">
-  <img src="abcd.png" alt="Bellatrix's Wand" class="product-img">
-  <img src="abcd3.png" alt="Merch 8" class="product-img">
-  <img src="abcd4.png" alt="Luna's Wand" class="product-img">
- 
-
+  <div class="wand-gallery">
+    <div class="wand-item"><img src="image1.jpg" alt="Wand 1"><div class="wand-name">Wand 1</div></div>
+    <div class="wand-item"><img src="image2.jpg" alt="Wand 2"><div class="wand-name">Wand 2</div></div>
+    <div class="wand-item"><img src="image3.jpeg" alt="Wand 3"><div class="wand-name">Wand 3</div></div>
+    <div class="wand-item"><img src="image4.png" alt="Wand 4"><div class="wand-name">Wand 4</div></div>
+    <div class="wand-item"><img src="image5.png" alt="Wand 5"><div class="wand-name">Wand 5</div></div>
+    <div class="wand-item"><img src="image6.png" alt="Wand 6"><div class="wand-name">Wand 6</div></div>
+    <div class="wand-item"><img src="image7.png" alt="Wand 7"><div class="wand-name">Wand 7</div></div>
+    <div class="wand-item"><img src="abcd4.png" alt="Wand 8"><div class="wand-name">Wand 8 (Updated)</div></div>
+    <div class="wand-item"><img src="image9.png" alt="Wand 9"><div class="wand-name">Wand 9</div></div>
+    <div class="wand-item"><img src="image10.png" alt="Wand 10"><div class="wand-name">Wand 10</div></div>
+    <div class="wand-item"><img src="abcd1.png" alt="Bonus Wand 1"><div class="wand-name">Bonus Wand 1</div></div>
+    <div class="wand-item"><img src="abcd2.png" alt="Bonus Wand 2"><div class="wand-name">Bonus Wand 2</div></div>
+    <div class="wand-item"><img src="abcd3.png" alt="Bonus Wand 3"><div class="wand-name">Bonus Wand 3</div></div>
+  </div>
 </body>
 </html>
-
-
-
