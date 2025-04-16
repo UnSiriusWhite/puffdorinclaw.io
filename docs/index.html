@@ -2,120 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PuffDorInClaw - Wand Collection</title>
+  <title>PuffDorInClaw</title>
+  <link rel="icon" type="image/png" href="image5.png">
   <style>
     body {
       background-color: #000;
-      color: white;
-      font-family: 'Georgia', serif;
-      text-align: center;
-      padding: 20px;
-    }
-
-    h1 {
-      color: gold;
-      text-shadow: 0 0 15px gold;
-      font-size: 48px;
-    }
-
-    .wand-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      margin-top: 30px;
-    }
-
-    .wand {
-      background-color: #1a1a1a;
-      border: 3px solid gold;
-      border-radius: 12px;
-      padding: 15px;
-      box-shadow: 0 0 40px 15px gold;
-      width: 300px;
-    }
-
-    .wand img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-
-    .wand p {
-      margin-top: 12px;
-      color: gold;
-      font-weight: bold;
-      font-size: 18px;
-    }
-
-    .description {
-      font-size: 20px;
-      margin: 0 auto;
-      padding: 20px;
-      max-width: 800px;
-      line-height: 1.6;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
 
     a {
-      color: gold;
+      color: #ffd700;
+      text-decoration: none;
     }
 
     hr {
-      border: 1px solid #444;
-      margin: 40px 0;
+      border-color: #444;
+    }
+
+    .logo-img {
+      max-width: 300px;
+      height: auto;
+      margin: 20px auto;
+      display: block;
+    }
+
+    .product-img {
+      width: 60%;
+      max-width: 500px;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ffd70044;
+      transition: transform 0.3s ease;
+    }
+
+    .product-img:hover {
+      transform: scale(1.02);
     }
   </style>
 </head>
 <body>
 
-  <h1>PuffDorInClaw</h1>
+  <!-- Logo -->
+  <img src="image5.png" alt="Hogwarts Crest" class="logo-img">
 
-  <div class="description">
-    Step into the magical world of Harry Potter with our exclusive collection of wands and merchandise! <br>
-    Whether you're a Gryffindor, Slytherin, Hufflepuff, or Ravenclaw, we offer high-quality, authentic wands
-    and accessories to bring your wizarding dreams to life.
-  </div>
+  <!-- Title -->
+  <h1 style="font-size:50px;text-align:center;">PuffDorInClaw</h1>
 
-  <hr>
-
-  <div class="wand-container">
-    <div class="wand">
-      <img src="image6.png" alt="Harry Potter's Wand">
-      <p>Harry Potter</p>
-    </div>
-
-    <div class="wand">
-      <img src="image7.png" alt="Voldemort's Wand">
-      <p>Voldemort</p>
-    </div>
-
-    <div class="wand">
-      <img src="image9.png" alt="Albus Dumbledore's Wand">
-      <p>Albus Dumbledore</p>
-    </div>
-
-    <div class="wand">
-      <img src="image10.png" alt="Hermione Granger's Wand">
-      <p>Hermione Granger</p>
-    </div>
-
-    <div class="wand">
-      <img src="image11.png" alt="Draco Malfoy's Wand">
-      <p>Draco Malfoy</p>
-    </div>
-  </div>
-
-  <hr>
-
-  <p>Learn more about your favorite wands:</p>
-  <p>
-    <a href="https://harrypotter.fandom.com/wiki/Harry_Potter%27s_wand" target="_blank">Harry Potter's Wand</a> |
-    <a href="https://harrypotter.fandom.com/wiki/Lord_Voldemort%27s_wand" target="_blank">Voldemort's Wand</a> |
-    <a href="https://harrypotter.fandom.com/wiki/Albus_Dumbledore%27s_wand" target="_blank">Dumbledore's Wand</a> |
-    <a href="https://harrypotter.fandom.com/wiki/Hermione_Granger%27s_wand" target="_blank">Hermione's Wand</a> |
-    <a href="https://harrypotter.fandom.com/wiki/Draco_Malfoy%27s_wand" target="_blank">Draco's Wand</a>
+  <!-- Description -->
+  <p style="font-size:20px; text-align:center; padding: 0 20px;">
+    Step into the magical world of Harry Potter with our exclusive <br>
+    collection of wands and merchandise! Whether you're a Gryffindor,
+    Slytherin, Hufflepuff, or Ravenclaw, we offer high-quality
+    authentic wands, apparel, collectibles, and accessories to bring your
+    wizarding dreams to life.
   </p>
+
+  <hr>
+
+  <!-- Wand Links -->
+  <p style="font-size:15px; text-align:center;">More about them:</p>
+  <p style="text-align: center;">
+    <a href="https://harrypotter.fandom.com/wiki/Hermione_Granger%27s_wand" style="font-size: 12px;">Hermione Granger's Wand</a><br>
+    <a href="https://harrypotter.fandom.com/wiki/Elder_Wand" style="font-size: 12px;">The Elder Wand</a><br>
+    <a href="https://harrypotter.fandom.com/wiki/Sirius_Black%27s_wand" style="font-size: 12px;">Sirius Black's Wand</a><br>
+    <a href="https://harrypotter.fandom.com/wiki/Albus_Dumbledore%27s_wand" style="font-size: 12px;">Albus Dumbledore's Wand</a><br>
+    <a href="https://harrypotter.fandom.com/wiki/Harry_Potter%27s_wand" style="font-size: 12px;">Harry Potter's Wand</a><br>
+    <a href="https://harrypotter.fandom.com/wiki/Draco_Malfoy%27s_wand" style="font-size: 12px;">Draco Malfoy's Wand</a><br>
+    <a href="https://harrypotter.fandom.com/wiki/Bellatrix_Lestrange%27s_wand" style="font-size: 12px;">Bellatrix Lestrange's Wand</a><br>
+    <a href="https://harrypotter.fandom.com/wiki/Neville_Longbottom%27s_wand" style="font-size: 12px;">Neville Longbottom's Wand</a><br>
+    <a href="https://harrypotter.fandom.com/wiki/Luna_Lovegood%27s_wand" style="font-size: 12px;">Luna Lovegood's Wand</a>
+  </p>
+
+  <hr>
+
+  <!-- Product Images -->
+  <img src="image1.jpg" alt="Merch 1" class="product-img">
+  <img src="image2.jpg" alt="Merch 2" class="product-img">
+  <img src="image3.jpeg" alt="Merch 3" class="product-img">
+  <img src="image4.png" alt="Merch 4" class="product-img">
+  <img src="image6.png" alt="Merch 5" class="product-img">
+  <img src="image7.png" alt="Merch 6" class="product-img">
+  <img src="image8.png" alt="Merch 7" class="product-img">
+  <img src="image9.png" alt="Merch 8" class="product-img">
+  <img src="image10.png" alt="Merch 9" class="product-img">
 
 </body>
 </html>
+
+
+
