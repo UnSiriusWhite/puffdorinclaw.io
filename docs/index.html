@@ -29,26 +29,31 @@
       display: block;
     }
 
-   .product-img {
-  width: 60%;
-  max-width: 500px;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 0 25px 10px #ffd700, 0 0 50px 20px #ffea00;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.product-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 35px 15px #ffd700, 0 0 70px 30px #ffea00;
-}
-
+    .product-img {
+      width: 60%;
+      max-width: 500px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 10px;
+      box-shadow: 0 0 30px 10px #ffd700;
+      transition: transform 0.3s ease;
     }
 
     .product-img:hover {
       transform: scale(1.02);
+    }
+
+    .product-container {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .product-name {
+      font-size: 16px;
+      color: #ffd700;
+      margin-top: 8px;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -87,16 +92,51 @@
 
   <hr>
 
-  <!-- Product Images -->
-  <img src="image1.jpg" alt="Merch 1" class="product-img">
-  <img src="image2.jpg" alt="Merch 2" class="product-img">
-  <img src="image3.jpeg" alt="Merch 3" class="product-img">
-  <img src="image4.png" alt="Merch 4" class="product-img">
-  <img src="image6.png" alt="Merch 5" class="product-img">
-  <img src="image11.png" alt="Merch 6" class="product-img">
-  <img src="image8.png" alt="Merch 7" class="product-img">
-  <img src="image9.png" alt="Merch 8" class="product-img">
-  <img src="image10.png" alt="Merch 9" class="product-img">
+  <!-- Product Images with Names -->
+  <div class="product-container">
+    <img src="image1.jpg" alt="Hermione Wand" class="product-img">
+    <p class="product-name">Hermione Granger's Wand</p>
+  </div>
+
+  <div class="product-container">
+    <img src="image2.jpg" alt="Elder Wand" class="product-img">
+    <p class="product-name">The Elder Wand</p>
+  </div>
+
+  <div class="product-container">
+    <img src="image3.jpeg" alt="Sirius Wand" class="product-img">
+    <p class="product-name">Sirius Black's Wand</p>
+  </div>
+
+  <div class="product-container">
+    <img src="image4.png" alt="Dumbledore Wand" class="product-img">
+    <p class="product-name">Albus Dumbledore's Wand</p>
+  </div>
+
+  <div class="product-container">
+    <img src="image6.png" alt="Harry Wand" class="product-img">
+    <p class="product-name">Harry Potter's Wand</p>
+  </div>
+
+  <div class="product-container">
+    <img src="image11.png" alt="Draco Wand" class="product-img">
+    <p class="product-name">Draco Malfoy's Wand</p>
+  </div>
+
+  <div class="product-container">
+    <img src="image8.png" alt="Bellatrix Wand" class="product-img">
+    <p class="product-name">Bellatrix Lestrange's Wand</p>
+  </div>
+
+  <div class="product-container">
+    <img src="image9.png" alt="Neville Wand" class="product-img">
+    <p class="product-name">Neville Longbottom's Wand</p>
+  </div>
+
+  <div class="product-container">
+    <img src="image10.png" alt="Luna Wand" class="product-img">
+    <p class="product-name">Luna Lovegood's Wand</p>
+  </div>
 
 </body>
 </html>
