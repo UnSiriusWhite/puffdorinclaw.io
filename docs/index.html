@@ -2,141 +2,80 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>PuffDorInClaw</title>
-  <link rel="icon" type="image/png" href="image5.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wand Collection</title>
   <style>
     body {
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    a {
-      color: #ffd700;
-      text-decoration: none;
-    }
-
-    hr {
-      border-color: #444;
-    }
-
-    .logo-img {
-      max-width: 300px;
-      height: auto;
-      margin: 20px auto;
-      display: block;
-    }
-
-    .product-img {
-      width: 60%;
-      max-width: 500px;
-      height: auto;
-      display: block;
-      margin: 0 auto;
-      border-radius: 10px;
-      box-shadow: 0 0 30px 10px #ffd700;
-      transition: transform 0.3s ease;
-    }
-
-    .product-img:hover {
-      transform: scale(1.02);
-    }
-
-    .product-container {
+      background-color: #0e0e0e;
+      color: white;
+      font-family: 'Georgia', serif;
       text-align: center;
-      margin-bottom: 40px;
+      padding: 20px;
     }
 
-    .product-name {
-      font-size: 16px;
-      color: #ffd700;
-      margin-top: 8px;
+    h1 {
+      color: gold;
+      text-shadow: 0 0 10px gold;
+    }
+
+    .wand-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .wand {
+      border: 3px solid gold;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 0 25px gold;
+      background-color: #1e1e1e;
+      width: 300px;
+    }
+
+    .wand img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .wand p {
+      margin-top: 10px;
+      color: gold;
       font-weight: bold;
     }
   </style>
 </head>
 <body>
+  <h1>Famous Wands</h1>
 
-  <!-- Logo -->
-  <img src="image5.png" alt="Hogwarts Crest" class="logo-img">
+  <div class="wand-container">
+    <div class="wand">
+      <img src="/mnt/data/image6.png" alt="Harry Potter's Wand">
+      <p>Harry Potter</p>
+    </div>
 
-  <!-- Title -->
-  <h1 style="font-size:50px;text-align:center;">PuffDorInClaw</h1>
+    <div class="wand">
+      <img src="/mnt/data/image7.png" alt="Voldemort's Wand">
+      <p>Voldemort</p>
+    </div>
 
-  <!-- Description -->
-  <p style="font-size:20px; text-align:center; padding: 0 20px;">
-    Step into the magical world of Harry Potter with our exclusive <br>
-    collection of wands and merchandise! Whether you're a Gryffindor,
-    Slytherin, Hufflepuff, or Ravenclaw, we offer high-quality
-    authentic wands, apparel, collectibles, and accessories to bring your
-    wizarding dreams to life.
-  </p>
+    <div class="wand">
+      <img src="/mnt/data/image9.png" alt="Albus Dumbledore's Wand">
+      <p>Albus Dumbledore</p>
+    </div>
 
-  <hr>
+    <div class="wand">
+      <img src="/mnt/data/image10.png" alt="Hermione Granger's Wand">
+      <p>Hermione Granger</p>
+    </div>
 
-  <!-- Wand Links -->
-  <p style="font-size:15px; text-align:center;">More about them:</p>
-  <p style="text-align: center;">
-    <a href="https://harrypotter.fandom.com/wiki/Hermione_Granger%27s_wand" style="font-size: 12px;">Hermione Granger's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Elder_Wand" style="font-size: 12px;">The Elder Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Sirius_Black%27s_wand" style="font-size: 12px;">Sirius Black's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Albus_Dumbledore%27s_wand" style="font-size: 12px;">Albus Dumbledore's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Harry_Potter%27s_wand" style="font-size: 12px;">Harry Potter's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Draco_Malfoy%27s_wand" style="font-size: 12px;">Draco Malfoy's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Bellatrix_Lestrange%27s_wand" style="font-size: 12px;">Bellatrix Lestrange's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Neville_Longbottom%27s_wand" style="font-size: 12px;">Neville Longbottom's Wand</a><br>
-    <a href="https://harrypotter.fandom.com/wiki/Luna_Lovegood%27s_wand" style="font-size: 12px;">Luna Lovegood's Wand</a>
-  </p>
-
-  <hr>
-
-  <!-- Product Images with Names -->
-  <div class="product-container">
-    <img src="image1.jpg" alt="Hermione Wand" class="product-img">
-    <p class="product-name">Hermione Granger's Wand</p>
+    <div class="wand">
+      <img src="/mnt/data/image11.png" alt="Draco Malfoy's Wand">
+      <p>Draco Malfoy</p>
+    </div>
   </div>
-
-  <div class="product-container">
-    <img src="image2.jpg" alt="Elder Wand" class="product-img">
-    <p class="product-name">The Elder Wand</p>
-  </div>
-
-  <div class="product-container">
-    <img src="image3.jpeg" alt="Sirius Wand" class="product-img">
-    <p class="product-name">Sirius Black's Wand</p>
-  </div>
-
-  <div class="product-container">
-    <img src="image4.png" alt="Dumbledore Wand" class="product-img">
-    <p class="product-name">Albus Dumbledore's Wand</p>
-  </div>
-
-  <div class="product-container">
-    <img src="image6.png" alt="Harry Wand" class="product-img">
-    <p class="product-name">Harry Potter's Wand</p>
-  </div>
-
-  <div class="product-container">
-    <img src="image7.png" alt="Draco Wand" class="product-img">
-    <p class="product-name">Draco Malfoy's Wand</p>
-  </div>
-
-  <div class="product-container">
-    <img src="image8.png" alt="Bellatrix Wand" class="product-img">
-    <p class="product-name">Bellatrix Lestrange's Wand</p>
-  </div>
-
-  <div class="product-container">
-    <img src="image9.png" alt="Neville Wand" class="product-img">
-    <p class="product-name">Neville Longbottom's Wand</p>
-  </div>
-
-  <div class="product-container">
-    <img src="image10.png" alt="Luna Wand" class="product-img">
-    <p class="product-name">Luna Lovegood's Wand</p>
-  </div>
-
 </body>
 </html>
